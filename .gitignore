@@ -1,4 +1,8 @@
-# Personal Data & Accounts (WICHTIG: Niemals sensible Daten auf GitHub pushen!)
+# Protect Source Code (Closed Source)
+*.py
+requirements.txt
+
+# Personal Data & Accounts
 accounts*.json
 users.json
 config.json
