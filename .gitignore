@@ -1,0 +1,19 @@
+# Personal Data & Accounts (WICHTIG: Niemals sensible Daten auf GitHub pushen!)
+accounts*.json
+users.json
+config.json
+*.session
+
+# Build Artifacts & PyInstaller
+build/
+dist/
+*.spec
+build_log.txt
+AccountManager.exe
+
+# Python Cache & Logs
+__pycache__/
+*.py[cod]
+logs/
+*.log
+.env
