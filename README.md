@@ -48,6 +48,8 @@ Drop in your Access Tokens, Refresh Tokens, or Microsoft session cookies (`ESTSA
 Launch directly into Minecraft with any account in seconds.
 
 - **Multi-Version Support:** Vanilla `1.20.4`, `1.8.9`, `Fabric`, `Forge`, `OptiFine`, `Snapshots`, and custom versions
+- **🌐 Quick-Join Server:** Auto-connect straight into any server (e.g. `play.hypixel.net`) on boot
+- **📁 Folder Shortcuts:** 1-Click access to `Mods`, `Resourcepacks`, `Saves`, and `.minecraft` folders
 - **Automatic 64-Bit Java Detection:** Auto-detects bundled modern OpenJDK (`java-runtime-delta` / Java 21) from `.minecraft`
 - **RAM & Performance Tuning:** Flexible memory allocation (2 GB – 16 GB) + optimized JVM flags (`G1GC`)
 - **Version Downloader:** Download official vanilla versions directly with live progress
@@ -60,6 +62,8 @@ Launch directly into Minecraft with any account in seconds.
 Bring all your Minecraft accounts together in a modern visual interface.
 
 - **Grid & List Views:** Toggle between beautiful 3D cards and compact table views
+- **🌐 NameMC & Hypixel Stats:** 1-Click profile & stats lookup on NameMC and Plancke
+- **🧹 Clean Invalid Tool:** 1-Click cleanup to remove all expired/invalid accounts
 - **Instant Search & Filters:** Filter by Active, Invalid, Banned, Sold, or custom notes
 - **Live Mojang Validator:** Real-time verification of account status, username, UUID, and official Mojang capes
 - **3D Skin Avatars:** High-resolution skin head rendering with local caching
