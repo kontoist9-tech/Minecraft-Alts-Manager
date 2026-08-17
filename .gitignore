@@ -1,6 +1,5 @@
 # Protect Source Code (Closed Source)
 *.py
-requirements.txt
 
 # Personal Data & Accounts
 accounts*.json

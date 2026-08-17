@@ -99,20 +99,57 @@ Never lose your accounts across multiple computers.
 
 ---
 
-## ⬇️ Download
+## ⬇️ Download & Install
 
-Get the pre-compiled standalone executable — no Python or extra dependencies required:
+Choose your platform below:
+
+### 🪟 Windows — Standalone `.exe` (No Python required)
+> Just download and double-click — zero setup needed!
 
 ### 👉 **[Download AccountManager.exe (Latest Release)](https://github.com/kontoist9-tech/Minecraft-Alts-Manager/releases/latest)**
 
 ---
 
+### 🍎 macOS — Python Installer
+
+**Requirements:** Python 3.10+ (install via [python.org](https://www.python.org/downloads/) or `brew install python`)
+
+```bash
+# 1. Clone or download the repository
+git clone https://github.com/kontoist9-tech/Minecraft-Alts-Manager.git
+cd Minecraft-Alts-Manager
+
+# 2. Run the installer (installs dependencies + launches the app)
+chmod +x install.sh
+./install.sh
+```
+
+> **Note for macOS:** If you see a *"cannot be opened"* warning, go to **System Settings → Privacy & Security** and click **"Open Anyway"**.
+
+---
+
+### 🐧 Linux — Python Installer
+
+```bash
+# 1. Clone or download the repository
+git clone https://github.com/kontoist9-tech/Minecraft-Alts-Manager.git
+cd Minecraft-Alts-Manager
+
+# 2. Run the installer
+chmod +x install.sh
+./install.sh
+```
+
+> **Linux:** You may need to install `python3-tk` first: `sudo apt install python3-tk` (Ubuntu/Debian)
+
+---
+
 ## 🚀 Getting Started
 
-1. **Download:** Download the latest `AccountManager.exe` from the [Releases](https://github.com/kontoist9-tech/Minecraft-Alts-Manager/releases/latest) page.
-2. **Launch:** Run `AccountManager.exe` by double-clicking it.
-3. **Import Accounts:**
+1. **Launch:** Start the app via `AccountManager.exe` (Windows) or `./install.sh` (Mac/Linux).
+2. **Import Accounts:**
    - Click **`+ Add`** to add an account manually.
+
    - Click **`📦 Import`** to scan ZIP logs or token files.
    - Click **`📋 Paste`** to paste raw tokens or cookie headers directly.
 4. **Play:**
