@@ -1,6 +1,6 @@
 <div align="center">
- #### Has a Key Auth If u need one Dm me Discord: Zxpyar. (with the dot)
-# 🎮 Minecraft Account Manager & Launcher
+  Has a Key Auth If u need one Dm me Discord: Zxpyar. (with the dot)
+#🎮 Minecraft Account Manager & Launcher
 
 #### A powerful, all-in-one multi-account (ALT) manager and game launcher for Minecraft players
 
