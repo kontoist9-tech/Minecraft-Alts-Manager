@@ -47,10 +47,10 @@ Drop in your Access Tokens, Refresh Tokens, or Microsoft session cookies (`ESTSA
 ### 🎮 Integrated Game Launcher
 Launch directly into Minecraft with any account in seconds.
 
-- **Multi-Version Support:** Vanilla `1.20.4`, `1.8.9`, `Fabric`, `Forge`, `OptiFine`, `Snapshots`, and custom versions
+- **Multi-Version Support:** Vanilla `1.21`, `1.20.4`, `1.8.9`, `Fabric`, `Forge`, `OptiFine`, `Snapshots`, and custom versions
 - **🌐 Quick-Join Server:** Auto-connect straight into any server (e.g. `play.hypixel.net`) on boot
 - **📁 Folder Shortcuts:** 1-Click access to `Mods`, `Resourcepacks`, `Saves`, and `.minecraft` folders
-- **Automatic 64-Bit Java Detection:** Auto-detects bundled modern OpenJDK (`java-runtime-delta` / Java 21) from `.minecraft`
+- **Automatic 64-Bit Java Detection:** Auto-detects bundled modern OpenJDK (`java-runtime-delta` / Java 21) across Windows, macOS, and Linux
 - **RAM & Performance Tuning:** Flexible memory allocation (2 GB – 16 GB) + optimized JVM flags (`G1GC`)
 - **Version Downloader:** Download official vanilla versions directly with live progress
 - **Live Game Console:** Real-time log streaming with instant `⏹ Kill Game` capability
@@ -61,13 +61,14 @@ Launch directly into Minecraft with any account in seconds.
 ### 🗂️ Account Wall & Management
 Bring all your Minecraft accounts together in a modern visual interface.
 
+- **🏷️ Account Categories & Tags:** Tag accounts with `⭐ Main`, `🌾 Alt / Farm`, `🏆 Ranked`, `💎 Cape`, `📦 Bulk`, `🚫 Banned`
+- **⚡ Concurrent Multi-Threading:** 10x faster parallel checking via `ThreadPoolExecutor`
+- **📊 Real-time Stats Chips:** Instant topbar counters for Total, Active, Invalid, and Capes
 - **Grid & List Views:** Toggle between beautiful 3D cards and compact table views
 - **🌐 NameMC & Hypixel Stats:** 1-Click profile & stats lookup on NameMC and Plancke
 - **🧹 Clean Invalid Tool:** 1-Click cleanup to remove all expired/invalid accounts
-- **Instant Search & Filters:** Filter by Active, Invalid, Banned, Sold, or custom notes
 - **Live Mojang Validator:** Real-time verification of account status, username, UUID, and official Mojang capes
 - **3D Skin Avatars:** High-resolution skin head rendering with local caching
-- **One-Click Actions:** Copy tokens, copy cookies, or refresh validation instantly
 
 </td>
 </tr>
@@ -77,20 +78,23 @@ Bring all your Minecraft accounts together in a modern visual interface.
 ### ⚡ High-Speed Cookie & Token Scanner
 Lightning-fast targeted file and ZIP log extractor.
 
+- **Smart Cookie Parser:** Automatically resolves real gamer tags and email hints instead of generic labels
 - **ZIP Archive Processing:** Scans archives in milliseconds using byte-level keyword filtering
 - **Multi-Format Support:** Extracts `Cookie-Editor JSON`, `Netscape cookies.txt`, raw session headers, and combos (`user:pass:token`)
-- **Smart Domain Filter:** Strictly targets Microsoft & Minecraft authentication (`.live.com`, `.xboxlive.com`, `ESTSAUTH`, `RPSTicket`)
+- **🌐 Proxy Routing:** SOCKS5 and HTTP proxy support for bypass and security
 - **Bulk Import Dialog:** Visual progress bar with live active/invalid statistics
 
 </td>
 <td width="50%" valign="top">
 
-### ☁️ Cloud Sync & Multi-User Support
-Never lose your accounts across multiple computers.
+### ☁️ Cloud Sync, Backups & Discord RPC
+Keep your accounts synchronized and show off your status.
 
+- **🎮 Discord Rich Presence:** Live Discord status showing your active Minecraft session & account
+- **📦 Automated Backups & Restore:** Local daily timestamped JSON backups with 15-day rotation
 - **Realtime Cloud Database:** Automatic Supabase cloud synchronization for your accounts
+- **📢 Discord Webhooks:** Automated alerts and reports sent straight to your Discord server
 - **Multi-Profile Login:** Individual local user profiles with SHA-256 secure credentials
-- **Role-Based Views:** Standard users see their personal accounts, while admin views the master database
 - **Export Formats:** Export accounts to JSON, active tokens, session cookies, or combo lists
 
 </td>
