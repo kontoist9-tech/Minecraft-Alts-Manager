@@ -1,20 +1,37 @@
 # Protect Source Code (Closed Source)
+*.go
+go.mod
+go.sum
+auth/
+db/
+logger/
+protocol/
+proxy/
+ui/
+webhook/
+supabase_setup.sql
+*.sql
 *.py
 
-# Personal Data & Accounts
-accounts*.json
-users.json
-config.json
-*.session
-
-# Build Artifacts & PyInstaller
+# Build Artifacts & Binaries
 build/
 dist/
 *.spec
 build_log.txt
+*.exe
 AccountManager.exe
+AccountManagerGo.exe
+AccountManagerV2.exe
 
-# Python Cache & Logs
+# Personal Data, Configs & Accounts
+accounts*.json
+users.json
+config.json
+*.session
+backups/
+scratch/
+
+# Cache & Logs
 __pycache__/
 *.py[cod]
 logs/
