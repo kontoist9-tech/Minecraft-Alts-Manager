@@ -13,14 +13,11 @@ supabase_setup.sql
 *.sql
 *.py
 
-# Build Artifacts & Binaries
+# Build Artifacts
 build/
 dist/
 *.spec
 build_log.txt
-*.exe
-AccountManager.exe
-AccountManagerGo.exe
 AccountManagerV2.exe
 
 # Personal Data, Configs & Accounts
